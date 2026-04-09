@@ -6,19 +6,20 @@ import altair as alt
 import json
 import time
 import io
+from google.oauth2.service_account import Credentials
+import gspread
 
 # ----- Connect to Google Sheet -----
+from google.oauth2.service_account import Credentials
+import gspread
+
 @st.cache_resource
 def connect_gsheet(x):
-    creds_dict = st.secrets["projectkpidashboard"]  # read secret
-    scope = [
-        "https://www.googleapis.com/auth/spreadsheets",
-        "https://www.googleapis.com/auth/drive",
-    ]
-    creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
+    creds_dict = st.secrets["projectkpidashboard"]
+    scopes = ["https://www.googleapis.com/auth/spreadsheets", "https://www.googleapis.com/auth/drive"]
+    creds = Credentials.from_service_account_info(creds_dict, scopes=scopes)
     client = gspread.authorize(creds)
-    spreadsheet = client.open_by_key("1bxVq20N1G9UIyek6BVMgpEMOvQJib-j7Jbsfj82KZtE")
-    sheet = spreadsheet.worksheet(x)
+    sheet = client.open_by_key("1bxVq20N1G9UIyek6BVMgpEMOvQJib-j7Jbsfj82KZtE").worksheet(x)
     return sheet
 
 # ----- Load Google Sheet into DataFrame -----
