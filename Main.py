@@ -175,8 +175,8 @@ def calculate_kpi_performance(df7, Month, Year, User):
 
 def calculate_total_kpi(kpi1, kpi2, kpi3, kpi4, kpi5, kpi6, Month, Year):
     return pd.DataFrame({
-        "Poin": [kpi1["Poin"][0] + kpi2["Poin"][0] + kpi3["Poin"][0] + kpi4["Poin"][0] + kpi5["Poin"][0] + kpi6["Poin"][0]],
-        "Final": [kpi1["Final"][0] + kpi2["Final"][0] + kpi3["Final"][0] + kpi4["Final"][0] + kpi5["Final"][0] + kpi6["Final"][0]]
+        "Poin": [kpi1["Poin"].iloc[0] + kpi2["Poin"].iloc[0] + kpi3["Poin"].iloc[0] + kpi4["Poin"].iloc[0] + kpi5["Poin"].iloc[0] + kpi6["Poin"].iloc[0]],
+        "Final": [kpi1["Final"].iloc[0] + kpi2["Final"].iloc[0] + kpi3["Final"].iloc[0] + kpi4["Final"].iloc[0] + kpi5["Final"].iloc[0] + kpi6["Final"].iloc[0]]
     }, index=[f"TOTAL KPI {Month} {Year}"])
 
 # ----- Streamlit App -----

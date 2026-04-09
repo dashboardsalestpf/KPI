@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "projectkpidashboard",
+  "private_key_id": "083780018c26119fbbbb47c5b40492cf32b202b8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC/Kx9/lHiMfc+a\nkcZpkoGe0ME3j6gPqIAmIuBU2IMTSo709BCU8yylaP0urg9y58TRLdnTuVSwueQF\n9Tsubi6NT37J2Wd26N+EONluyFF090VPw1SKIJuqyTNTDACxceW2qUy15pfN+xEj\nmKYGC7QK7Sx8Vj1EFNJ9HZxwdcdnl3mOKQBOSQxzVx3PJf7v+XGn5S96Ahx68tYZ\nUXdIvweBoZV1g4tzD4PqeNjBufMAyueTjcV6RgPX4T3oVMoQ6D5ayZZ0HaBczLZ7\nXi9geb49LGgnTtyZXncUustFIwKUsgOy/gyvB9HJVWBAgQasL3qabi3cM4xY1Fur\n3nqetnvNAgMBAAECggEAO+cPX7Luc1eZDh5PxhUaeOGBKh/h0cZDIbAcC3os2Ias\ndSVlbMcmXk6fx1jTjnYBvmpXr3iLiTU2toc5nDr6a11VpXpyaVhfcdc+ivBKVhSF\nq5DRlNbS8JlLc+J29SNzj+FNIFK5jtn1bOoQXCSeri3TmsKLQCImMv5sXvEJIvRQ\nSYBPrkgQu6LoOLmvaViIfzjlBIz9HgnjDuYmxEgK3sjOJYy+OYTBWQooo5WS1eJ4\ndI3uzRDzeBuhVRyMf+kpxyj4qaK4PqpsqzN7sQNXOFung7ceKiC0LICw5i/INtPz\n3kr73SphQ4eniTQkgiTPtLVZvNioh0M2JZ/lIcVBIQKBgQD803TzjUfk7ZlsWVaM\nwPq1BYfnAWPA+DeV2TZmm0dpqpP74jwZ2Nc5LmyUOXY2dzusxAHtpbxi8ktYt4MY\nLR02xT5urFjt05pdwyBDjU/PaOeZcdjeKYGHLKd4RX5YRAb+b54MYsxF5sNBrFoC\n0V/60per2H5AON/nxG0+567SqwKBgQDBkYIr4uo6uUEveGElWxNB+QKT/yAufvRI\nBPPNO0tZJH7UIsAqnkWFGj8bko8M39txLJynuWo1LZmRNggGs8DvpUQm2a1WeGjB\nkAzE+ZIlImtNxO+JvZCRM08X39JcPvbhIkekDFRMYoJsjgXvIf/YBTT4EHGD+R1G\nBOLjVfcrZwKBgComXsMT9L531jI4GrPQoHt5dpTOqIDNYQb8dZNZo+g75fwCVZ7B\nhfAkizmS8uBVtH8zFlc2YFfmqSUbQyHOs6Yj8CqnVRQhSQUEuOZKMtoTVTlBv7Qa\nG1wb17e3bj7s6HWWyjSqa//jXv4d68u4eFXqshqWN0YhtUKAfu4T1hONAoGBAI/Z\n0yNKP0fk5MyiaY+ZX3Zn18KklwX20xOymnyq1BQrSxXbvXPuqzt/hea3xBeNRUeW\nH9WFtahPexCvVsekTn3KFBvLKUZZtYAjzVmVH0b5jUT+VgXHGujNeLoFXA+xu0cU\ncqk3gG5DxyllYoOUgM3JENRJZBLvzxF6ECNif42BAoGAL03kbw3w8aoRJBCPFT6U\nsyaFTegnXOIjMVxEa6fr0gXG2fuzFUfzWN1CuEwdwKHn7MB5HxvZ0meNZcYceNAI\nHIBVIkQVvWCGzKY3RznkeI5yTYJJuR+9yKokUhZOgNrD/corQ2pE0HR5TuGKN3Kx\naE7wCwXp6goc2VFRj8nbGu4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "project-kpi-dashboard@projectkpidashboard.iam.gserviceaccount.com",
+  "client_id": "103861540018453243950",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/project-kpi-dashboard%40projectkpidashboard.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
